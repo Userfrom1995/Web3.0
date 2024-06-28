@@ -24,4 +24,5 @@ jobs:
 
     - name: Build
       run: |
-        pwd
+       cd project_web3.0-main/smart_contract/
+       node a.js
