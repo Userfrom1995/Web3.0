@@ -1,2 +1,4 @@
-console.log(URL)
+require('dotenv').config();
+
+console.log(process.env.URL)
 
