@@ -26,4 +26,4 @@ jobs:
       run: |
        cd project_web3.0-main/smart_contract/
        npm install
-       echo {{secrets.URL}}
+       echo ${{secrets.URL}}
