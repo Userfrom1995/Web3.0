@@ -1,10 +1,11 @@
+require('@nomiclabs/hardhat-waffle');
 
 module.exports = {
-  solidity: '0.8.0',
+  solidity: '0.8.24',
   networks: {
     ropsten: {
-      url: process.env.URL,
-      accounts: [process.env.ACCOUNTS],
+      url: '',
+      accounts: [''],
     },
   },
 };
